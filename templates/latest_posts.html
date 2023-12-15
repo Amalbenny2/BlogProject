@@ -1,0 +1,15 @@
+<!-- latest_posts.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latest Blog Posts</title>
+</head>
+<body>
+    <h2>Latest Blog Posts</h2>
+    <ul>
+        {% for post in latest_posts %}
+            <li>{{ post.title }} - {{ post.pub_date }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
