@@ -1,1 +1,1 @@
-This is a very simple project creating Blog 
+This is a very simple project for creating Blog 
